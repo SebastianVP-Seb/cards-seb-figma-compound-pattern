@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
 }
 
 .App-logo {
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(0, 0, 0, 0.562);
 }
 
 .App-link {
@@ -35,4 +37,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  background-color: #282c34;
+}
+
+.logo-card {
+  height: 9vmin;
+  color: #000;
+}
+
+.whats-new {
+  margin-top: 6rem;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.card_name {
+  color: white;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 19.4rem;
+  z-index: 10;
 }
